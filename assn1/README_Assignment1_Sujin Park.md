@@ -29,10 +29,11 @@ The Simulator node simulates the pose (position and orientation) of the robot.
 <launch>
 ```
 3. Run Files
-   1. Run the launch file: `roslaunch assn1 assn1_launch.launch`
+   1. Run the launch file
+      `roslaunch assn1 assn1_launch.launch`
    2. Run each node 
    - Run the Driver Node: `rosrun my_robot_driver driver_node`
    - Run the Simulator Node: `rosrun my_robot_simulator simulator_node`
 
 #### Videos
-- [Driver and Simulator Execution Video Link](link_to_driver_video)
+- [Driver and Simulator Execution Video Link][(link_to_driver_video](https://youtu.be/07lgEeBNV0I)https://youtu.be/07lgEeBNV0I)
