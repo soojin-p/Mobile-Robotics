@@ -1,4 +1,4 @@
-# Assignment1: ROS - Forward Kinematics of a DDMWR / Sujin park
+# Assignment1: ROS - Forward Kinematics of a DDMWR / Sujin Park
 
 ### Problem Description
 The goal of this assignment is to create two ROS nodes, namely the "simulator" and "driver," to simulate the forward kinematics of a differential drive mobile robot. The "driver" node publishes velocity commands to control the robot, while the "simulator" node calculates the robot's pose based on these commands. A launch file is also provided to start both nodes simultaneously.
