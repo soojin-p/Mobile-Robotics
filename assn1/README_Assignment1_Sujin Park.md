@@ -3,13 +3,15 @@
 ### Problem Description
 The goal of this assignment is to create two ROS nodes, namely the "simulator" and "driver," to simulate the forward kinematics of a differential drive mobile robot. The "driver" node publishes velocity commands to control the robot, while the "simulator" node calculates the robot's pose based on these commands. A launch file is also provided to start both nodes simultaneously.
 ###  Solution Steps
-#### Driver Node: https://github.com/soojin-p/UNLV_CpE476/blob/master/assn1/src/driver.cpp
+#### Driver Node
+https://github.com/soojin-p/UNLV_CpE476/blob/master/assn1/src/driver.cpp
 The Driver node is responsible for controlling the robot.
 1. Receives velocity commands from the `cmd_vel` topic.
 2. Calculates the velocities of each wheel (Vr and Vl) based on the received commands.
 3. Publishes Vr and Vl values.
    
-#### Simulator Node: https://github.com/soojin-p/UNLV_CpE476/blob/master/assn1/src/simulator.cpp)
+#### Simulator Node
+https://github.com/soojin-p/UNLV_CpE476/blob/master/assn1/src/simulator.cpp)
 The Simulator node simulates the pose (position and orientation) of the robot. 
 1. Receives velocity commands from the `cmd_vel` topic.
 2. Uses the received commands to simulate the robot's position (x, y) and orientation (theta).
@@ -72,4 +74,4 @@ void cmdVelCallback(const geometry_msgs::Twist& cmd_vel) {
 ![image](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/08b9f845-a1b9-4c37-ad13-f138a139a856)
 
 
-- [Driver and Simulator Execution Video Link](https://youtu.be/07lgEeBNV0I)
+- [Driver and Simulator Execution Video Link]([https://youtu.be/07lgEeBNV0I](https://youtu.be/IDlQ4fxA2FU)https://youtu.be/IDlQ4fxA2FU)
