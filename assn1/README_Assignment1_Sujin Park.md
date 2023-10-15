@@ -128,8 +128,8 @@ int main(int argc, char** argv) {
 2. Create a Launch File
 ```
 <launch>
-  <node name="driver_cpp_node" pkg="assn1" type="driver" />
-  <node name="simulator_cpp_node" pkg="assn1" type="simulator" />
+  <node name="driver_cpp_node" pkg="assn1" type="driver" output="screen" />
+  <node name="simulator_cpp_node" pkg="assn1" type="simulator" output="screen"  />
 <launch>
 ```
 3. Run Files
