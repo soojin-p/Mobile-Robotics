@@ -5,14 +5,14 @@ The goal of this assignment is to create two ROS nodes, namely the "simulator" a
 ###  Solution Steps
 #### Driver Node
 The Driver node is responsible for controlling the robot.
-- [Driver Node Code Link](link_to_driver_code)
+- [Driver Node Code Link](https://github.com/soojin-p/UNLV_CpE476/blob/master/assn1/src/driver.cpp)
 1. Receives velocity commands from the `cmd_vel` topic.
 2. Calculates the velocities of each wheel (Vr and Vl) based on the received commands.
 3. Publishes Vr and Vl values.
    
 #### Simulator Node
 The Simulator node simulates the pose (position and orientation) of the robot. 
-- [Simulator Node Code Link](link_to_simulator_code)
+- [Simulator Node Code Link](https://github.com/soojin-p/UNLV_CpE476/blob/master/assn1/src/simulator.cpp)
 1. Receives velocity commands from the `cmd_vel` topic.
 2. Uses the received commands to simulate the robot's position (x, y) and orientation (theta).
 3. Publishes the simulation result to the `Pose` topic.
@@ -36,4 +36,4 @@ The Simulator node simulates the pose (position and orientation) of the robot.
    - Run the Simulator Node: `rosrun my_robot_simulator simulator_node`
 
 #### Videos
-- [Driver and Simulator Execution Video Link][(link_to_driver_video](https://youtu.be/07lgEeBNV0I)https://youtu.be/07lgEeBNV0I)
+- [Driver and Simulator Execution Video Link](https://youtu.be/07lgEeBNV0I)
