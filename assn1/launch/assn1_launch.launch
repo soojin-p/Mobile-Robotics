@@ -1,4 +1,4 @@
 <launch>
-  <node name="driver_cpp_node" pkg="assn1" type="driver" />
-  <node name="simulator_cpp_node" pkg="assn1" type="simulator" />
+  <node name="driver_cpp_node" pkg="assn1" type="driver" open="screen"/>
+  <node name="simulator_cpp_node" pkg="assn1" type="simulator" open="screen/>
 </launch>
