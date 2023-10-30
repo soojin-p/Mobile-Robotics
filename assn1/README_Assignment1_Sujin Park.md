@@ -67,8 +67,8 @@ void cmdVelCallback(const geometry_msgs::Twist& cmd_vel) {
    1. Run the launch file
       `roslaunch assn1 assn1_launch.launch`
    2. Run each node 
-   - Run the Driver Node: `rosrun my_robot_driver driver_node`
-   - Run the Simulator Node: `rosrun my_robot_simulator simulator_node`
+   - Run the Driver Node: `rosrun assn1_driver driver_node`
+   - Run the Simulator Node: `rosrun assn1_simulator simulator_node`
 
 #### Screenshots and Videos
 ![image](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/08b9f845-a1b9-4c37-ad13-f138a139a856)
