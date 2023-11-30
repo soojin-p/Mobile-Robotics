@@ -16,10 +16,7 @@ https://github.com/soojin-p/UNLV_CpE476/assets/72116811/2a540f09-f313-4de7-a017-
 
 ### Setup the Jenson nano with the SD-card image.
 ![Screenshot from 2023-09-07 17-35-21](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/bc760156-33fe-435e-b714-0a20e0c46bf3)
-
-3. If you already have an SD card image of the Jetson nano with ROS installed you can also use it. 
-roscore img
 ![Screenshot from 2023-09-07 17-37-33](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/78f911f8-6ea2-41e3-a37d-518c175e49ed)
 
-4. Calibrate the robot by completing the "09. Robot control course" 
-5. Test your Lidar and Mapping by completing the "11. Lidar course - Lidar basic-SLAM"
+### Calibrate the robot by completing the "09. Robot control course" 
+### Test your Lidar and Mapping by completing the "11. Lidar course - Lidar basic-SLAM"
