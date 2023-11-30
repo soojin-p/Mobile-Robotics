@@ -1,0 +1,4 @@
+<launch>
+    <node name="driver_node" pkg="assin2_driver.cpp" type="driver" output="screen" />
+    <node name="controller_node" pkg="assin2_controller.cpp" type="controller" output="screen" />
+</launch>
