@@ -48,10 +48,11 @@ while (ros::ok() && turtlesim_pose.x == 0.0 && turtlesim_pose.y == 0.0) {
 ```
 3. Run Files
    1. Run the launch file
-      `roslaunch assn1 assn1_launch.launch`
+      `roslaunch assin2 assin2_launch.launch`
    2. Run each node 
    - Run the Driver Node: `rosrun assin2_driver driver_node`
    - Run the Simulator Node: `rosrun assin2_controller controller_node`
 
 #### Screenshots and Videos
 ![image](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/db27c17e-d7fc-4455-9faa-28023a7bafc6)
+https://youtu.be/5HZYBFmda34
