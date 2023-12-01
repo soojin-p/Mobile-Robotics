@@ -5,11 +5,11 @@ The goal of this example is to develop two cpp or python files, one called the c
 
 ###  Solution Steps
 #### Driver Node
-https://github.com/soojin-p/UNLV_CpE476/blob/master/assn1/src/driver.cpp
+https://github.com/soojin-p/UNLV_CpE476/blob/master/assin2/src/driver.cpp
 The driver has a topic/msg that constantly publishes the goal_pose (x,y,\theta).
 
 #### Controller Node
-https://github.com/soojin-p/UNLV_CpE476/blob/master/assn1/src/simulator.cpp)
+https://github.com/soojin-p/UNLV_CpE476/blob/master/assin2/src/controller.cpp)
 1. publishes the current pose
 2. publishes cmd_vel
 
