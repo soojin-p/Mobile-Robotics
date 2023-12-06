@@ -1,7 +1,10 @@
-# urdf
-`roslaunch ros_mobile_robot drive_robot.launch`
+# Assignment3 urdf
 
-Wait a few seconds for Gazebo to be fully loaded. In the second terminal, run the rqt_robot_steering package which provides a GUI to steer robots.
+ 1) Display the robot with all TF points using Rviz,
+    `roslaunch ros_mobile_robot drive_robot.launch`
+    ![Screenshot from 2023-12-05 18-26-50](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/d19fe6dd-e534-435e-8dab-51f6307e3511)
 
-`rosrun rqt_robot_steering rqt_robot_steering`
-[!(https://youtu.be/Jipw54Mi0s0)](https://github.com/soojin-p/UNLV_CpE476/issues/1#issue-2027515478)https://github.com/soojin-p/UNLV_CpE476/issues/1#issue-2027515478
+    
+ 3) Move the robot using /cmd-vel using keyboard commands.
+    `rosrun rqt_robot_steering rqt_robot_steering`
+![robot moving](https://github.com/soojin-p/UNLV_CpE476/issues/1#issue-2027515478)
