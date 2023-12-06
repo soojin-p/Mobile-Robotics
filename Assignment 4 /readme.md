@@ -17,7 +17,7 @@ https://github.com/soojin-p/UNLV_CpE476/assets/72116811/ef1af55c-88be-4b3d-a9b4-
 https://github.com/soojin-p/UNLV_CpE476/assets/72116811/2a540f09-f313-4de7-a017-792df1506bed
 https://youtube.com/shorts/8CiImidPCtI?feature=share
 
-### Calibrate
+### calibrate
 https://youtube.com/shorts/B6WupWhTcLo?feature=share
 
 ### Setup the Jenson nano with the SD-card image.
