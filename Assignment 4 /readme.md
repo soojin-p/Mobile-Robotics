@@ -23,3 +23,10 @@ https://youtube.com/shorts/B6WupWhTcLo?feature=share
 ### Setup the Jenson nano with the SD-card image.
 ![Screenshot from 2023-09-07 17-35-21](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/bc760156-33fe-435e-b714-0a20e0c46bf3)
 ![Screenshot from 2023-09-07 17-37-33](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/78f911f8-6ea2-41e3-a37d-518c175e49ed)
+
+
+### mapping
+
+![Screenshot from 2023-12-06 12-00-24](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/4a6c182d-c43e-47e1-bfdc-154ae2b85ce0)
+![Screenshot from 2023-12-06 11-58-28](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/a9c6b170-bd99-4a62-979b-1dd85e902d09)
+
