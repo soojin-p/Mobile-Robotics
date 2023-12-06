@@ -11,4 +11,4 @@
 
     `rosrun rqt_robot_steering rqt_robot_steering`
     
-![robot moving](https://github.com/soojin-p/UNLV_CpE476/issues/1#issue-2027515478)
+![Robot Moving](https://github.com/soojin-p/UNLV_CpE476/issues/1#issue-2027515478)
