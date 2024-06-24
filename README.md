@@ -160,10 +160,10 @@ roslaunch ros_mobile_robot drive_robot.launch
 rosrun rqt_robot_steering rqt_robot_steering
 ```
 - [Robot Moving Vieo](https://github.com/soojin-p/UNLV_CpE476/issues/1#issue-2027515478)
-### Additional Tasks
-- **Setup the STM32CubeIDE on your PC (Linux/Windows/Mac) and validate the working of the ROS-Controller for the motors, encoders, IMU, etc. A demo was shown in the class.**
-- **Calibrate the robot by completing the "09. Robot control course."**
-- **Test your Lidar and Mapping by completing the "11. Lidar course - Lidar basic-SLAM."**
+## Assignment 4: Robot Test
+- **Setup the STM32CubeIDE on your PC (Linux/Windows/Mac) and validate the working of the ROS-Controller for the motors, encoders, IMU, etc.**
+- **Calibrate the robot by completing the Robot control course.**
+- **Test your Lidar and Mapping by completing the Lidar course - Lidar basic-SLAM.**
 
 #### Videos and Images
 
@@ -199,10 +199,6 @@ rosrun rqt_robot_steering rqt_robot_steering
 - [ESP32-E](https://wiki.dfrobot.com/FireBeetle_Board_ESP32_E_SKU_DFR0654)
 - [OpenCV Shadow Remover](https://github.com/YalimD/image_shadow_remover)
 
-## Code Repositories
-- **ESP32-E code:** [ESP32_Shadow_Remove](https://github.com/soojin-p/UNLV_Project/tree/main/ESP32_Shadow_Remove)
-- **Raspberry Pi4 Camera code:** [RPi Camera](https://github.com/soojin-p/UNLV_Project/blob/main/RPi%20Camera.md)
-- **OpenCV code:** [OpenCV_Shadow_detect](https://github.com/soojin-p/UNLV_Project/tree/main/OpenCV_Shadow_detect)
 
 ## Conclusion
 This collection of assignments and projects showcases the design, implementation, and programming of autonomous mobile robots, emphasizing the use of ROS for robot control and navigation. Through these exercises, students gain hands-on experience with kinematics, dynamics, control theory, sensor integration, and autonomous systems development.
