@@ -2,8 +2,7 @@
 
 Design, implementation, and programming of autonomous mobile robots (UAVs and Rovers), kinematics and dynamics of robots, basic control theory, sensors and actuators for robots, autopilots and autonomous control, and robot application development.
 
-## Assignment 1: ROS - Forward Kinematics of a DDMWR / Sujin Park
-
+## Assignment 1: ROS - Forward Kinematics of a DDMWR 
 ### Problem Description
 The goal of this assignment is to create two ROS nodes, namely the "simulator" and "driver," to simulate the forward kinematics of a differential drive mobile robot. The "driver" node publishes velocity commands to control the robot, while the "simulator" node calculates the robot's pose based on these commands. A launch file is also provided to start both nodes simultaneously.
 
@@ -83,7 +82,7 @@ void cmdVelCallback(const geometry_msgs::Twist& cmd_vel) {
 
 - [Driver and Simulator Execution Video](https://youtu.be/IDlQ4fxA2FU)
 
-## Assignment 2: Inverse Kinematics of DDMWR / Sujin Park
+## Assignment 2: Inverse Kinematics of DDMWR 
 
 ### Problem Description
 The goal of this assignment is to develop two cpp or python files, one called the controller and another called the driver. The driver has a topic/msg that constantly publishes the goal_pose (x, y, theta). The controller includes two topics/msgs: 1) a publisher that publishes the current pose and 2) a publisher/advertise cmd_vel. The controller implements a simple differential driver inverse kinematics of a mobile robot to determine the path of the robot. Also, implement a launch file to execute all nodes.
