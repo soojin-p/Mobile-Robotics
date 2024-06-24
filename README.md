@@ -194,11 +194,5 @@ rosrun rqt_robot_steering rqt_robot_steering
 - ![Mapping Screenshot 3](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/89eae955-3853-4736-b6c3-2e554ea4c107)
 - [Mapping Video](https://youtu.be/hyZjB1GkSXk)
 
-## References
-- [Raspberry Pi4 Camera](https://www.waveshare.com/wiki/RPi_Camera_%28I%29#libcamera-still)
-- [ESP32-E](https://wiki.dfrobot.com/FireBeetle_Board_ESP32_E_SKU_DFR0654)
-- [OpenCV Shadow Remover](https://github.com/YalimD/image_shadow_remover)
-
-
 ## Conclusion
 This collection of assignments and projects showcases the design, implementation, and programming of autonomous mobile robots, emphasizing the use of ROS for robot control and navigation. Through these exercises, students gain hands-on experience with kinematics, dynamics, control theory, sensor integration, and autonomous systems development.
