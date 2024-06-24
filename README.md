@@ -160,8 +160,7 @@ roslaunch ros_mobile_robot drive_robot.launch
 ```sh
 rosrun rqt_robot_steering rqt_robot_steering
 ```
-[![Robot Moving](https://github.com/soojin-p/UNLV_CpE476/issues/1#issue-2027515478)](https://youtu.be/Jipw54Mi0s0)
-
+- [Robot Moving Vieo](https://github.com/soojin-p/UNLV_CpE476/issues/1#issue-2027515478)
 ### Additional Tasks
 - **Setup the STM32CubeIDE on your PC (Linux/Windows/Mac) and validate the working of the ROS-Controller for the motors, encoders, IMU, etc. A demo was shown in the class.**
 - **Calibrate the robot by completing the "09. Robot control course."**
@@ -170,19 +169,17 @@ rosrun rqt_robot_steering rqt_robot_steering
 #### Videos and Images
 
 #### Motors
-- ![Motor Video 1](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/f9c6178a-a9e7-4737-839b-c3d5b0be6a87)
-- ![Motor Video 2](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/f5ea1bb3-2cdd-42f8-822a-b25152134846)
+- [Motor Video 1](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/f9c6178a-a9e7-4737-839b-c3d5b0be6a87)
+- [Motor Video 2](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/f5ea1bb3-2cdd-42f8-822a-b25152134846)
 
 #### Encoders
-- ![Encoder Video 1](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/6848cb09-04b2-414e-af9a-1a4c411d39b0)
-- ![Encoder Video 2](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/82c4ea84-b2c6-4efd-8692-6290503cedc9)
-- [Encoder Video 3](https://youtube.com/shorts/WA-CgaBt0xM
-
-?feature=share)
+- [Encoder Video 1](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/6848cb09-04b2-414e-af9a-1a4c411d39b0)
+- [Encoder Video 2](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/82c4ea84-b2c6-4efd-8692-6290503cedc9)
+- [Encoder Video 3](https://youtube.com/shorts/WA-CgaBt0xM?feature=share)
 
 #### IMU
-- ![IMU Video 1](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/ef1af55c-88be-4b3d-a9b4-a14dc4428435)
-- ![IMU Video 2](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/2a540f09-f313-4de7-a017-792df1506bed)
+- [IMU Video 1](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/ef1af55c-88be-4b3d-a9b4-a14dc4428435)
+- [IMU Video 2](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/2a540f09-f313-4de7-a017-792df1506bed)
 - [IMU Video 3](https://youtube.com/shorts/8CiImidPCtI?feature=share)
 
 #### Calibration
