@@ -1,4 +1,4 @@
-# CPE 476 - Mobile Robotics
+# Mobile Robotics
 
 Design, implementation, and programming of autonomous mobile robots (UAVs and Rovers), kinematics and dynamics of robots, basic control theory, sensors and actuators for robots, autopilots and autonomous control, and robot application development.
 
