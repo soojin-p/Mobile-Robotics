@@ -2,7 +2,7 @@
 
 Design, implementation, and programming of autonomous mobile robots (UAVs and Rovers), kinematics and dynamics of robots, basic control theory, sensors and actuators for robots, autopilots and autonomous control, and robot application development.
 
-## Assignment 1: ROS - Forward Kinematics of a DDMWR 
+## 1. ROS - Forward Kinematics of a DDMWR 
 ### Problem Description
 The goal of this assignment is to create two ROS nodes, namely the "simulator" and "driver," to simulate the forward kinematics of a differential drive mobile robot. The "driver" node publishes velocity commands to control the robot, while the "simulator" node calculates the robot's pose based on these commands. A launch file is also provided to start both nodes simultaneously.
 
@@ -55,7 +55,7 @@ void cmdVelCallback(const geometry_msgs::Twist& cmd_vel) {
 }
 ```
 
-### Assignment Execution Instructions
+### Execution Instructions
 
 1. **Build ROS Packages**
    ```sh
@@ -82,7 +82,7 @@ void cmdVelCallback(const geometry_msgs::Twist& cmd_vel) {
 
 - [Driver and Simulator Execution Video](https://youtu.be/IDlQ4fxA2FU)
 
-## Assignment 2: Inverse Kinematics of DDMWR 
+## 2: Inverse Kinematics of DDMWR 
 
 ### Problem Description
 The goal of this assignment is to develop two cpp or python files, one called the controller and another called the driver. The driver has a topic/msg that constantly publishes the goal_pose (x, y, theta). The controller includes two topics/msgs: 1) a publisher that publishes the current pose and 2) a publisher/advertise cmd_vel. The controller implements a simple differential driver inverse kinematics of a mobile robot to determine the path of the robot. Also, implement a launch file to execute all nodes.
@@ -121,7 +121,7 @@ while (ros::ok()) {
 }
 ```
 
-### Assignment Execution Instructions
+### Execution Instructions
 
 1. **Build ROS Packages**
    ```sh
@@ -147,7 +147,7 @@ while (ros::ok()) {
 ![image](https://github.com/soojin-p/UNLV_CpE476/assets/72116811/db27c17e-d7fc-4455-9faa-28023a7bafc6)
 [Execution Video](https://youtu.be/5HZYBFmda34)
 
-## Assignment 3: URDF
+## 3: URDF
 
 ### 1) Display the robot with all TF points using Rviz
 ```sh
@@ -160,7 +160,7 @@ roslaunch ros_mobile_robot drive_robot.launch
 rosrun rqt_robot_steering rqt_robot_steering
 ```
 - [Robot Moving Vieo](https://github.com/soojin-p/UNLV_CpE476/issues/1#issue-2027515478)
-## Assignment 4: Robot Test
+## 4: Robot Test
 - **Setup the STM32CubeIDE on your PC (Linux/Windows/Mac) and validate the working of the ROS-Controller for the motors, encoders, IMU, etc.**
 - **Calibrate the robot by completing the Robot control course.**
 - **Test your Lidar and Mapping by completing the Lidar course - Lidar basic-SLAM.**
